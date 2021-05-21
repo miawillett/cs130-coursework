@@ -1,0 +1,50 @@
+
+header {
+	background-color: #778A35;
+	text-align: center;
+	padding: 20px;
+}
+
+body {
+    margin: 0px;
+    font-family: Copperplate, fantasy;
+    background-color: #D1E2C4;
+    text-align: right;
+    
+}
+main {
+	
+}
+
+iframe {
+	height: 1045px; 
+	border: 0px none; 
+	width: 1250px; 
+	margin-top: -105px;
+	margin-left: -625px;
+
+	/*margin-left: -200px;
+	height: 100%; 
+	border: 0px none; 
+	width: 100%; 
+	margin-top: -1200px; 
+	margin-left: -24px; */
+}
+
+div {
+	position: absolute; 
+	left: 100px; 
+	top: 150px; 
+	height: 700px;
+	width: 900px;
+	border: solid 2px #555; 
+	
+	overflow: hidden; 
+	/*width:594px; 
+	height:100%;
+	
+	margin-top: -500px; 
+	margin-left: -275px;*/
+
+}
+
