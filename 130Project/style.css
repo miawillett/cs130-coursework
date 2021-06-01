@@ -1,8 +1,26 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+   	grid-template-rows: 75px 25px auto;
+   	grid-template-areas:
+      	"top"
+      	"menu"
+      	"bottom";
+
+}
 
 header {
 	background-color: #778A35;
 	text-align: center;
-	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	grid-area: top;
+}
+
+nav {
+	padding-top: 20px;
+	text-align: center;
+	grid-area: menu;
 }
 
 body {
@@ -16,35 +34,78 @@ main {
 	
 }
 
+h2 {
+	text-align: left;
+	padding-left: 25px;
+}
+
+
+
 iframe {
 	height: 1045px; 
 	border: 0px none; 
 	width: 1250px; 
 	margin-top: -105px;
 	margin-left: -625px;
-
-	/*margin-left: -200px;
-	height: 100%; 
-	border: 0px none; 
-	width: 100%; 
-	margin-top: -1200px; 
-	margin-left: -24px; */
 }
 
-div {
+.myiframe {
 	position: absolute; 
 	left: 100px; 
 	top: 150px; 
 	height: 700px;
 	width: 900px;
 	border: solid 2px #555; 
-	
+	grid-area: bottom;
 	overflow: hidden; 
-	/*width:594px; 
-	height:100%;
-	
-	margin-top: -500px; 
-	margin-left: -275px;*/
 
 }
+
+/* Page 2 dropdown*/
+.dropbtn {
+  background-color: #94bb86;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-family: Copperplate, fantasy;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #accaa1;
+}
+
+
+.dropdown {
+	padding-top: 25px;
+  	display: inline-block;
+  	text-align: center;
+}
+
+
+.dropdown-content {
+  display: none;
+  margin-top: 25px;
+  text-align: center;
+  background-color: #dbe8d7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #accaa1}
+
+
+.show {display:block;}
 
