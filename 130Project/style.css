@@ -21,6 +21,13 @@ nav {
 	padding-top: 20px;
 	text-align: center;
 	grid-area: menu;
+  
+}
+
+.tabs {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
 }
 
 body {
@@ -109,3 +116,21 @@ iframe {
 
 .show {display:block;}
 
+.iframe2{
+  height: 1200px;
+  width: 915px;
+  margin-top: -445px;
+  margin-left: -625px;
+  margin-bottom: -1100px;
+
+}
+.myiframe2 {
+  position: absolute; 
+  left: 100px; 
+  top: 150px; 
+  height: 700px;
+  width: 900px;
+  border: solid 2px #555; 
+  grid-area: bottom;
+  overflow: hidden; 
+}
